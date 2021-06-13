@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  font-family:  'Saurce Sans Pro'
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263343;
+  padding: 8px 12px;
+}
+
+.nav__log{
+  font-size: 24px;
+  /* padding: 12px 12px; */
+}
+
+.nav__log i{
+  color: orange;
+}
+
+.nav__menu{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav__menu li:hover{
+  background-color: pink;
+  border-radius: 4%;
+}
+
+.nav__menu li{
+  padding: 8px 12px;
+}
+
+.nav__icons{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav__icons li{
+  color: white;
+  padding: 8px 12px;
+}
+
+.toggle_button{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  .nav__menu{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav__menu li{
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav__icons{
+    justify-content: center;
+    width: 100%;
+  }
+
+  .toggle_button{
+    display: block;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+  }
+}
