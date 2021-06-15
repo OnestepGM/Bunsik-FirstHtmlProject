@@ -1,0 +1,54 @@
+css(cascading style sheet)
+cascading 
+author style(우리가 지정)
+user style(사용자가 지정)
+browser(브라우저의 기본값으로 지정) 순으로 차례로 지정
+
+selectors종류 및 예시
+Universal *
+Type   Tag
+ID  #id
+Class  .class
+State  :
+Attribute []
+
+선택자가 구체적일수록 우선순위
+속성값에 따라서도 변경가능
+->태그[속성값]{}
+
+padding 컨텐츠 안에 있는 space
+margin 컨텐츠 밖에 있는 space
+css reference에서 각 css 속성값 확인
+
+선택자 게임
+https://flukeout.github.io/
+
+layout
+inline 컨텐츠
+inline-block 컨텐츠를 감싸는 상자 
+block 컨텐츠를 감싸는 상자인데 한 줄씩 사용
+
+position 
+static 원래 브라우저에서 갖는 기본값(position 지정 안해도 이걸로 지정됨)
+relative 원래 있던 위치를 기준으로 이동
+absolute 가까이 있는 태그를 기준(static 제외한 부모 박스 기준)으로 이동
+fixed 페이지 상에서 이동
+sticky 스크롤할 때도 그자리에 위치함
+
+브라우저에서 속성값 사용여부
+can i use를 통해 확인
+
+float
+주로 img를  text로 감싸면서 사용함
+
+flexbox
+container, item 각각에 속성을 지정가능
+vh : 부모에 상관없이 viewheight를 쓰는 비율
+색깔찾는 사이트 color tool
+
+flex-direction: row 기본값
+flex-wrap: nowrap 기본값
+flex-flow: flex-direction flex-wrap
+justify-content: item들의 위치 지정
+align-items 반대 축에서 item 위치 지정(text정렬도 가능 baseline)
+

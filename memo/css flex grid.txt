@@ -1,0 +1,20 @@
+1. flex
+
+flex-direction row, column 그리고 각 reverse도 가능
+align-items 세로 위치 지정
+justify-content 가로 위치 지정
+
+order 특정 요소들 임의로 순서 변경
+align-self : align-items무시하고 개별적으로 위치 지정
+flex-wrap: 한줄 또는 여러줄로 지정, reverse도 가능
+flex-flow 로 flex-direction, flex-wrap을 속성 각각 지정 가능;
+align-content 여러줄이 있을 때 위치를 지정 (단, 한줄만 있을 때 사용x)
+
+2. grid
+
+grid-column/grid-row 칸을 기준으로 아래쪽, 오른쪽에 해당
+span 은 수직선이 아닌 넓이를 기준
+grid-area:  grid-row-start, grid-column-start, grid-row-end, grid-column-end순으로
+/로 지정
+grid-template-columns : px, fr 단위로 비율 지정
+grid-template:  grid-template-rows / grid-template-columns 지정
