@@ -1,0 +1,56 @@
+html{
+}
+body{
+  font-family: 'Noto Sans KR';
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  padding: 0 .5rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.navigationBarBackground{
+  background-color: #008275;
+}
+.title a span{
+  font-size: 1.25rem;
+  margin-right: .7rem;
+}
+.listName{
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.navigationBar{
+  box-sizing: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-between;
+  align-items: center;
+  background-color: #008275;
+  margin : 0 auto;
+  max-width: 1300px;
+  padding: 0 1rem;
+}
+
+.leftHeader, .rightHeader{
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  list-style:none;
+  padding: 0 0;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 650px) {
+  .navigationBar{
+    display: flex;
+    flex-direction: column;
+  }
+}
