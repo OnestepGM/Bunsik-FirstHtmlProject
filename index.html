@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtubeClone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/639be427e6.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">YouTube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+        <!-- Video Player -->
+    <section class="player">
+        <video class="video" controls>
+            <source src="imgAndVideo/경제 위기에 대처하는 투자의 기본.mp4">
+        </video>
+    </section>
+
+    <div class="infoAndUpNext">
+    <!-- Video Info -->
+    <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#유수진</li>
+                <li>#14F</li>
+                <li>#경제위기</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title clamp">
+                    우리가 부자가 아닌 이유는 이걸 몰라서다!
+                    자본주의 2가지 룰부터 돈 공부까지 20대가 궁금한 경제지식! 
+                    부자언니 유수진이 너에게만 알려준다
+                    ★봐야할순서★ 자본주의(다큐)☞돈의힘(다큐)☞화율전쟁(책)☞화폐전쟁(책)☞국가부도의날(영화)☞인사이드잡(영화)☞빅쇼트(영화)
+                </span>
+                <button class="moreBtn"  id="bts" onclick="mf()"><i class="fas fa-caret-down"></i></button>
+            </div>
+            <div class="views">
+                <span>조회수 569,555회 2019. 4. 17</span>
+            </div>
+        </div>
+        <!-- Actions -->
+        <ul class="actions">
+            <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+            <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+            <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+            <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+            <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+        </ul>
+        <!-- Channel Description  -->
+        <div class="channel">
+            <div class="metadata">
+                    <img src="imgAndVideo/14f.jpg">
+                    <div class="info">
+                        <span class="name">14F</span>
+                        <span class="subscribers">1M subcribers</span>
+                    </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    
+    </section>
+
+    <!-- Up Next -->
+    <section class="upNext">
+        <span class="title"><span>Up Next</span></span>
+        <ul>
+            <li class="item">
+                    <div class="img"><img src="imgAndVideo/item1.webp"></div>
+                    <div class="info">
+                        <span class="title">
+                            신사임당(前 PD)을 퇴사하게 만든 김프로의 결정적 한 마디? / 14F
+                        </span>
+                        <span class="name">
+                            14F 일사에프
+                        </span>
+                        <span class="views">
+                            조회수 144,370회
+                        </span>
+                    </div>
+                    <button class="moreBtn">    
+                    </button>
+                </item>
+            </li>
+            <li class="item">
+                    <div class="img"><img src="imgAndVideo/item2.webp"></div>
+                    <div class="info">
+                        <span class="title">
+                            [★대출실전TIP★] 전세대출부터 신용대출까지 궁금한 거 다 알려줄게 / 14F
+                        </span>
+                        <span class="name">
+                            14F 일사에프
+                        </span>
+                        <span class="views">
+                            조회수 90,823회
+                        </span>
+                    </div>
+                    <button class="moreBtn">    
+                    </button>
+            </li>
+            <li class="item">
+                    <div class="img"><img src="imgAndVideo/item3.webp"></div>
+                    <div class="info">
+                        <span class="title">
+                            “대박 아니면 쪽박” 비트코인 투자, 이 비트에 몸을 맡겨도 될까요? / 14F
+                        </span>
+                        <span class="name">
+                            14F 일사에프
+                        </span>
+                        <span class="views">
+                            조회수 129,042회
+                        </span>
+                    </div>
+                    <button class="moreBtn">                        
+                    </button>
+            </li>
+        </ul>
+    </section>
+    </div>
+</body>
+
+</html>
